@@ -1,0 +1,103 @@
+:root {
+  --main-bg-color: blueviolet;
+  --font1: "Ubuntu", sans-serif;
+  --font2: "Roboto", sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+.font1 {
+  font-family: var(--font1);
+}
+
+.font2 {
+  font-family: var(--font2);
+}
+
+.max-width-1 {
+  max-width: 80vw;
+}
+
+.max-width-2 {
+  max-width: 60vw;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.mx-1 {
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+.text-1{
+  font-size: 1.5rem;
+}
+
+.text-2{
+  font-size:1.3rem;
+}
+
+.text-3{
+  font-size:1rem;
+}
+
+.text-4{
+  font-size:0.6rem;
+}
+
+.bold{
+  font-weight:bold;
+}
+
+.my-2 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.btn {
+  padding: 0px 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-bottom: 14px;
+  border: 2px solid blueviolet;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 6px;
+  font-family: var(--font1);
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-lg {
+  padding: 30px 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 14px;
+  border: 2px solid black;
+  background-color: var(--main-bg-color);
+  color: #ffffff;
+  border-radius: 6px;
+  font-family: var(--font1);
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover, .btn-lg:hover{
+  color: white;
+  background: black;
+}
+
+.roboto {
+  font-family: var(--font2);
+}
+
+.font-size-sm {
+  font-size: 1.5rem;
+  text-align: center;
+}
