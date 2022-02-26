@@ -183,3 +183,37 @@
   font-size: 1.5rem;
   text-align: center;
 }
+
+@media screen and (max-width: 1200px) {
+
+  .navigation {
+
+    flex-direction: column;
+
+    margin-bottom: 23px;
+
+  }
+
+  .nav-left {
+
+    flex-direction: column;
+
+    text-align: center;
+
+  }
+
+  .nav-left ul {
+
+    margin: 15px 0;
+
+  }
+
+  .nav-right {
+
+    flex-direction: column;
+
+    margin-top: 5px;
+
+  }
+
+}
